@@ -154,8 +154,8 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
-Marcus Imagwe- https://github.com/Dr-MarcusI
-Ezinwa charles-  
+Omotola Saheed- https://github.com/profjay1
+Silvester Kilungya-  
 
 ## License
 Public Domain. No copy write protection. 
