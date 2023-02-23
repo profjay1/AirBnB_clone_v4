@@ -155,7 +155,7 @@ No known bugs at this time.
 
 ## Authors
 Omotola Saheed- https://github.com/profjay1
-Silvester Kilungya-  
+Silvester Kilungya- https://github.com/KilungyaJr
 
 ## License
 Public Domain. No copy write protection. 
