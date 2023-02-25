@@ -1,22 +1,61 @@
+@charset "UTF-8";
+/** Holberton Practice Styles
+ * ------ Common
+ */
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    color: #484848;
-    font-size: 14px;
-    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-body .container {
-    max-width: 1000px;
-    margin: 30px auto;
-}
-
-.amenity {
-  position: relative;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	color: #484848;
+	font-size: 14px;
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.amenity input[type="checkbox"] {
-  position: absolute;
-  left: 10px;
-  top: 0;
-  opacity: 0;
+main {
+	flex-grow: 1;
+	flex-shrink: 0;
+}
+
+div.container {
+	max-width: 1000px;
+	margin: 30px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+div.nope-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	max-width: 1000px;
+	margin: 30px auto;
+	padding: 20px;
+	border: 1px solid #FF5A5F;
+	border-radius: 4px;
+}
+
+div.nope-container div {
+    flex-grow: 1;
+}
+
+div.nope-container h1.nope, h3.nope {
+    margin: 0 auto;
+    text-align: center;
+}
+
+img#fail-img {
+	margin: auto;
+	max-width: 35%;
 }
